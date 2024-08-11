@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    text-align: center; /* Centraliza o texto */
+    background-color: #f5f5f5; /* Define o fundo com um branco suave */
+    color: #333; /* Define a cor do texto padrão */
+}
+
+header {
+    background-color: #4B0082; /* Fundo roxo escuro para o cabeçalho */
+    color: white; /* Texto branco */
+    padding: 1rem; /* Preenchimento interno do cabeçalho */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil no cabeçalho */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 1rem; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #ffffff; /* Cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+    transition: color 0.3s ease; /* Transição suave na mudança de cor */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Cor dourada para os links ao passar o mouse */
+}
+
+main {
+    padding: 2rem; /* Preenchimento interno do conteúdo principal */
+}
+
+section {
+    margin-bottom: 2rem; /* Espaçamento abaixo das seções */
+}
+
+h1, h2 {
+    color: #4B0082; /* Roxo escuro para os títulos */
+}
+
+.contact-info, .education-info {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento */
+    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 600px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza a lista horizontalmente */
+}
+
+.contact-info li, .education-info li {
+    margin-bottom: 1rem; /* Espaçamento entre os itens da lista */
+    padding: 10px; /* Preenchimento interno dos itens */
+    background-color: #e6e6fa; /* Fundo lilás claro para destaque */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.contact-info a, .education-info a {
+    color: #4B0082; /* Roxo escuro para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.contact-info a:hover, .education-info a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+    color: #9400D3; /* Roxo mais vivo no hover */
+}
+
+footer {
+    background-color: #333333; /* Preto para o fundo do rodapé */
+    color: white; /* Texto branco no rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem; /* Preenchimento interno do rodapé */
+    position: absolute; /* Posiciona o rodapé fixo no fundo */
+    bottom: 0; /* Alinha o rodapé ao fundo da página */
+    width: 100%; /* Define o rodapé para ocupar toda a largura */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil no topo do rodapé */
+}
